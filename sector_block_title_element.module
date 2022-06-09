@@ -87,11 +87,11 @@ function sector_block_title_element_preprocess_block(&$variables) {
   if (!empty($variables['elements']['#id'])) {
     $block = Block::load($variables['elements']['#id']);
     if ($block && $subtitle = $block->getThirdPartySetting('sector_block_title_element', 'title_element')) {
-      $variables['title_selector'] = $subtitle;
+      $variables['title_element'] = $subtitle;
     }
     else {
       // default to <strong>
-      $variables['title_selector'] = 'strong';
+      $variables['title_element'] = 'strong';
     }
   }
 }

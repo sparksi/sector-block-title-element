@@ -1,6 +1,6 @@
-name: Block Title HTML Selector
+name: Block Title HTML Element
 type: module
-description: Choose your own HTML selector for your block title
+description: Choose your own HTML element for your block title
 package: Other
 core_version_requirement: ^8 || ^9
 
