@@ -1,0 +1,7 @@
+block.block.*.third_party.sector_block_title_element:
+  type: mapping
+  label: Block title element third party settings
+  mapping:
+    title_element:
+      type: text
+      label: Add title element for the block

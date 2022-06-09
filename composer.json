@@ -1,0 +1,13 @@
+{
+    "name": "sparksi/sector-block-title-element",
+    "description": "Choose the HTML element of your block titles",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "type" : "drupal-custom-modules",
+    "authors": [
+      {
+        "name": "Sparks Interactive"
+      }
+    ],
+    "require": {}
+  }
